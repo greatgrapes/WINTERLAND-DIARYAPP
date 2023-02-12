@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B06799E829993A1F0094003C /* 경기천년바탕OTF_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B06799E729993A1F0094003C /* 경기천년바탕OTF_Regular.otf */; };
+		B06799EA29993A620094003C /* 경기천년바탕OTF_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B06799E929993A620094003C /* 경기천년바탕OTF_Bold.otf */; };
+		B06799EC29993A780094003C /* 경기천년제목OTF_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B06799EB29993A780094003C /* 경기천년제목OTF_Light.otf */; };
+		B06799EE29993A880094003C /* 경기천년제목OTFV_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B06799ED29993A880094003C /* 경기천년제목OTFV_Bold.otf */; };
 		B0EFA2812998E9F200BC51B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFA2802998E9F200BC51B1 /* AppDelegate.swift */; };
 		B0EFA2832998E9F200BC51B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFA2822998E9F200BC51B1 /* SceneDelegate.swift */; };
 		B0EFA2852998E9F200BC51B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFA2842998E9F200BC51B1 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B06799E729993A1F0094003C /* 경기천년바탕OTF_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "경기천년바탕OTF_Regular.otf"; path = "../../../../Library/Fonts (Removed)/02-13-2023 00_15_23 GMT+9/경기천년바탕OTF_Regular.otf"; sourceTree = "<group>"; };
+		B06799E929993A620094003C /* 경기천년바탕OTF_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "경기천년바탕OTF_Bold.otf"; path = "../../../../Library/Fonts (Removed)/02-13-2023 00_16_41 GMT+9/경기천년바탕OTF_Bold.otf"; sourceTree = "<group>"; };
+		B06799EB29993A780094003C /* 경기천년제목OTF_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "경기천년제목OTF_Light.otf"; path = "../../../../Library/Fonts (Removed)/02-13-2023 00_17_07 GMT+9/경기천년제목OTF_Light.otf"; sourceTree = "<group>"; };
+		B06799ED29993A880094003C /* 경기천년제목OTFV_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "경기천년제목OTFV_Bold.otf"; path = "../../../../Library/Fonts (Removed)/02-13-2023 00_17_21 GMT+9/경기천년제목OTFV_Bold.otf"; sourceTree = "<group>"; };
 		B0EFA27D2998E9F200BC51B1 /* WINTERLAND.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WINTERLAND.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EFA2802998E9F200BC51B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0EFA2822998E9F200BC51B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,8 +71,20 @@
 				B0EFA2892998E9F300BC51B1 /* Assets.xcassets */,
 				B0EFA28B2998E9F300BC51B1 /* LaunchScreen.storyboard */,
 				B0EFA28E2998E9F300BC51B1 /* Info.plist */,
+				B0EFA2942999374400BC51B1 /* fonts */,
 			);
 			path = WINTERLAND;
+			sourceTree = "<group>";
+		};
+		B0EFA2942999374400BC51B1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B06799E729993A1F0094003C /* 경기천년바탕OTF_Regular.otf */,
+				B06799E929993A620094003C /* 경기천년바탕OTF_Bold.otf */,
+				B06799EB29993A780094003C /* 경기천년제목OTF_Light.otf */,
+				B06799ED29993A880094003C /* 경기천년제목OTFV_Bold.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +146,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0EFA28D2998E9F300BC51B1 /* LaunchScreen.storyboard in Resources */,
+				B06799EC29993A780094003C /* 경기천년제목OTF_Light.otf in Resources */,
 				B0EFA28A2998E9F300BC51B1 /* Assets.xcassets in Resources */,
 				B0EFA2882998E9F200BC51B1 /* Main.storyboard in Resources */,
+				B06799EE29993A880094003C /* 경기천년제목OTFV_Bold.otf in Resources */,
+				B06799EA29993A620094003C /* 경기천년바탕OTF_Bold.otf in Resources */,
+				B06799E829993A1F0094003C /* 경기천년바탕OTF_Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
